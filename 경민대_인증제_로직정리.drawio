@@ -73,11 +73,53 @@
             <mxPoint x="660" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TI4pqq-0Ur0KhcYKkDTI-0" target="tg3y-EARPhffcgVbwgIG-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TI4pqq-0Ur0KhcYKkDTI-0" value="&#39;교양 비교과&#39; 성적 산출 시작" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1690" y="30" width="240" height="80" as="geometry" />
+          <mxGeometry x="1990" y="30" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tg3y-EARPhffcgVbwgIG-0" target="tg3y-EARPhffcgVbwgIG-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tg3y-EARPhffcgVbwgIG-0" value="비교과 등록 내역 조회&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;쿼리 :&amp;nbsp;&lt;/div&gt;&lt;div&gt;SELECT B.KMCODEPERCENT&lt;/div&gt;&lt;div&gt;, B.KMCODE&lt;/div&gt;&lt;div&gt;, A.PGDX&lt;/div&gt;&lt;div&gt;, A.PID&lt;/div&gt;&lt;div&gt;, PRO.TITLE&lt;/div&gt;&lt;div&gt;,B.TERM&lt;/div&gt;&lt;div&gt;,B.YEAR&lt;/div&gt;&lt;div&gt;,PRO.PROYEAR&lt;/div&gt;&lt;div&gt;,PRO.HAKGI&lt;/div&gt;&lt;div&gt;,B.DEPTRELS&lt;/div&gt;&lt;div&gt;,B.CORECAREER&amp;nbsp;&lt;/div&gt;&lt;div&gt;FROM TPROGRAMREG A INNER JOIN TPROGRAM PRO&amp;nbsp;&lt;/div&gt;&lt;div&gt;ON A.PGDX = PRO.PGDX INNER JOIN TPROGRAMPLAN B&amp;nbsp;&lt;/div&gt;&lt;div&gt;ON PRO.PPDX = B.PPDX WHERE PID&amp;nbsp; = {pid} and regstatus=&#39;3&#39; and&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;B.YEAR || B.TERM &amp;lt;= &#39;{YEAR}{TERM}&#39; ORDER BY B.YEAR DESC, B.TERM DESC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;spacingLeft=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1630" y="190" width="500" height="340" as="geometry" />
+          <mxGeometry x="1930" y="190" width="500" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tg3y-EARPhffcgVbwgIG-1" target="tg3y-EARPhffcgVbwgIG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-1" value="받아온 데이터 FOR 문 돌기" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;spacingLeft=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1960" y="610" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tg3y-EARPhffcgVbwgIG-3" target="tg3y-EARPhffcgVbwgIG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-3" value="FOR 문 안에 있는 DR[&quot;KMCODEPERCENT &quot;] 값 (핵심역량 정보) 을 &#39;,&#39; 기준으로 나누기" style="whiteSpace=wrap;html=1;align=left;rounded=1;arcSize=14;strokeWidth=2;spacingLeft=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1980" y="795" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tg3y-EARPhffcgVbwgIG-6" target="tg3y-EARPhffcgVbwgIG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-6" value="나눠진 핵심역량 배열 FOR 문 돌기" style="whiteSpace=wrap;html=1;align=left;rounded=1;arcSize=14;strokeWidth=2;spacingLeft=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2000" y="935" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tg3y-EARPhffcgVbwgIG-8" target="tg3y-EARPhffcgVbwgIG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-8" value="핵심역량 비율 X PPOINT 값을&amp;nbsp;&lt;div&gt;각 핵심역량별로 PPOINT 저장되는 HashTable 변수에 넣어주기&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;arcSize=14;strokeWidth=2;spacingLeft=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2018" y="1075" width="322" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tg3y-EARPhffcgVbwgIG-10" target="tg3y-EARPhffcgVbwgIG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-10" value="HashTable 키값 전체 돌면서 저장되어 있는 PPOINT 값을&lt;div&gt;교양 비교과 변수에 ++ 시켜주기.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;arcSize=14;strokeWidth=2;spacingLeft=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1970" y="1215" width="425" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-12" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&#39;교양 비교과&#39; 성적 산출 끝&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;rounded=1;arcSize=14;strokeWidth=2;spacingLeft=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2055" y="1345" width="255" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-14" value="전체 FOR 문 종료" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2180" y="1150" width="115" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
