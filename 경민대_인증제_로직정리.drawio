@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2049" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -73,8 +73,11 @@
             <mxPoint x="660" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TI4pqq-0Ur0KhcYKkDTI-0" value="&#39;교양 비교과&#39; 성적 산출 시작" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="TI4pqq-0Ur0KhcYKkDTI-0" value="&#39;교양 비교과&#39; 성적 산출 시작" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1690" y="30" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-0" value="비교과 등록 내역 조회&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;쿼리 :&amp;nbsp;&lt;/div&gt;&lt;div&gt;SELECT B.KMCODEPERCENT&lt;/div&gt;&lt;div&gt;, B.KMCODE&lt;/div&gt;&lt;div&gt;, A.PGDX&lt;/div&gt;&lt;div&gt;, A.PID&lt;/div&gt;&lt;div&gt;, PRO.TITLE&lt;/div&gt;&lt;div&gt;,B.TERM&lt;/div&gt;&lt;div&gt;,B.YEAR&lt;/div&gt;&lt;div&gt;,PRO.PROYEAR&lt;/div&gt;&lt;div&gt;,PRO.HAKGI&lt;/div&gt;&lt;div&gt;,B.DEPTRELS&lt;/div&gt;&lt;div&gt;,B.CORECAREER&amp;nbsp;&lt;/div&gt;&lt;div&gt;FROM TPROGRAMREG A INNER JOIN TPROGRAM PRO&amp;nbsp;&lt;/div&gt;&lt;div&gt;ON A.PGDX = PRO.PGDX INNER JOIN TPROGRAMPLAN B&amp;nbsp;&lt;/div&gt;&lt;div&gt;ON PRO.PPDX = B.PPDX WHERE PID&amp;nbsp; = {pid} and regstatus=&#39;3&#39; and&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;B.YEAR || B.TERM &amp;lt;= &#39;{YEAR}{TERM}&#39; ORDER BY B.YEAR DESC, B.TERM DESC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;spacingLeft=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1630" y="190" width="500" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
