@@ -1,77 +1,80 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="pGIJmbj-0f2mSrclGapS-0" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-13" target="pGIJmbj-0f2mSrclGapS-18">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-0" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-13" target="pGIJmbj-0f2mSrclGapS-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="775" y="120" as="sourcePoint" />
             <mxPoint x="740" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-13" value="&#39;교양교과&#39; 성적 산출 시작" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="715" y="30" width="185" height="80" as="geometry" />
+        <mxCell id="pGIJmbj-0f2mSrclGapS-13" value="&#39;교양 교과&#39; 성적 산출 시작" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="715" y="30" width="255" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-14" value="&#39;교양교과&#39; 성적 산출 종료" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-14" value="&#39;교양교과&#39; 성적 산출 종료" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="910" y="1560" width="185" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-15" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-18" target="pGIJmbj-0f2mSrclGapS-19">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-15" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-18" target="pGIJmbj-0f2mSrclGapS-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="965" y="410" as="sourcePoint" />
             <mxPoint x="980" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-18" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;학교 성적 뷰 받아오기&lt;/span&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;(V_HAKSA_STU_MARK )&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;쿼리 : Select&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;STUDENT_NO AS PID&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, YEAR AS YYYY&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, GRADE&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, TERM&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, SUBJECT_NO as SUBJECTCODE&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, SUBJECT_NM AS SUBJECTNAME&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, MARK&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, CASE WHEN SUBSTR(MARK, 0, 1) IN (&#39;A&#39;, &#39;B&#39;,&#39;P&#39;) THEN 1 WHEN SUBSTR(MARK, 0, 1) IN (&#39;C&#39;) THEN 0.8 WHEN SUBSTR(MARK, 0, 1) IN (&#39;D&#39;) THEN 0.5 WHEN SUBSTR(MARK, 0, 1) IN (&#39;F&#39;) THEN 0.3 ELSE 0 END AS MARK_SCORE&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;from V_HAKSA_STU_MARK where MARK NOT IN (&#39;NP&#39;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-18" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;학교 성적 뷰 받아오기&lt;/span&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;(V_HAKSA_STU_MARK )&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;쿼리 : Select&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;STUDENT_NO AS PID&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, YEAR AS YYYY&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, GRADE&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, TERM&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, SUBJECT_NO as SUBJECTCODE&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, SUBJECT_NM AS SUBJECTNAME&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, MARK&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, CASE WHEN SUBSTR(MARK, 0, 1) IN (&#39;A&#39;, &#39;B&#39;,&#39;P&#39;) THEN 1 WHEN SUBSTR(MARK, 0, 1) IN (&#39;C&#39;) THEN 0.8 WHEN SUBSTR(MARK, 0, 1) IN (&#39;D&#39;) THEN 0.5 WHEN SUBSTR(MARK, 0, 1) IN (&#39;F&#39;) THEN 0.3 ELSE 0 END AS MARK_SCORE&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;from V_HAKSA_STU_MARK where MARK NOT IN (&#39;NP&#39;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="610" y="180" width="620" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-19" target="pGIJmbj-0f2mSrclGapS-20">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-19" target="pGIJmbj-0f2mSrclGapS-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-19" value="받아온 성적뷰 FOR 문 돌기" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-19" value="받아온 성적뷰 FOR 문 돌기" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="650" y="650" width="530" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-20" value="교과목 프로파일 테이블 (TMAJORJOBCOURSE) 에&amp;nbsp;&lt;div style=&quot;font-size: 14px;&quot;&gt;해당 교과목 코드에 해당하는 교과목 있는지 확인하기&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-20" value="교과목 프로파일 테이블 (TMAJORJOBCOURSE) 에&amp;nbsp;&lt;div style=&quot;font-size: 14px;&quot;&gt;해당 교과목 코드에 해당하는 교과목 있는지 확인하기&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="694" y="820" width="412" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-29" target="pGIJmbj-0f2mSrclGapS-37">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-29" target="pGIJmbj-0f2mSrclGapS-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-29" value="년도별 핵심역량 저장 테이블(TMAJORCOMPETENCE) FOR 문 돌기" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-29" value="년도별 핵심역량 저장 테이블(TMAJORCOMPETENCE) FOR 문 돌기" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="680" y="1190" width="530" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.417;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-20" target="pGIJmbj-0f2mSrclGapS-29">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.417;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-20" target="pGIJmbj-0f2mSrclGapS-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="960" y="990" as="sourcePoint" />
             <mxPoint x="1060" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-35" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="pGIJmbj-0f2mSrclGapS-34">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-35" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="pGIJmbj-0f2mSrclGapS-34" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-37" target="pGIJmbj-0f2mSrclGapS-14">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-37" target="pGIJmbj-0f2mSrclGapS-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-37" value="&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;교양교과 성적 +=&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;성적뷰(&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 14px;&quot;&gt;V_HAKSA_STU_MARK) [&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;MARK_SCORE&quot;]&amp;nbsp; x&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;교과목 프로파일 테이블 (TMAJORJOBCOURSE) [&quot;POINT&quot;] x&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;교과목 프로파일 테이블 (TMAJORJOBCOURSE) [&quot;ITEM_&quot; +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; font-size: 14px;&quot;&gt;년도별 핵심역량 저장 테이블(TMAJORCOMPETENCE)[&quot;ITEM_NUM&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;]]&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=11;spacingBottom=10;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-37" value="&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;교양교과 성적 +=&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;성적뷰(&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 14px;&quot;&gt;V_HAKSA_STU_MARK) [&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;MARK_SCORE&quot;]&amp;nbsp; x&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;교과목 프로파일 테이블 (TMAJORJOBCOURSE) [&quot;POINT&quot;] x&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;교과목 프로파일 테이블 (TMAJORJOBCOURSE) [&quot;ITEM_&quot; +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; font-size: 14px;&quot;&gt;년도별 핵심역량 저장 테이블(TMAJORCOMPETENCE)[&quot;ITEM_NUM&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;]]&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=11;spacingBottom=10;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="410" y="1350" width="1220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-40" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;입력 경로 :&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;인증제 등급관리 &amp;gt; &#39;교과&#39; 버튼 클릭 시 삽입&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-40" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;입력 경로 :&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;인증제 등급관리 &amp;gt; &#39;교과&#39; 버튼 클릭 시 삽입&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="120" y="810" width="370" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-43" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;입력 경로 :&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;인증제 등급관리 &amp;gt; &#39;교과&#39; 버튼 클릭 시 삽입&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-43" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;입력 경로 :&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;인증제 등급관리 &amp;gt; &#39;교과&#39; 버튼 클릭 시 삽입&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="120" y="1090" width="370" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-40" target="pGIJmbj-0f2mSrclGapS-20">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-40" target="pGIJmbj-0f2mSrclGapS-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="790" y="1210" as="sourcePoint" />
             <mxPoint x="840" y="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pGIJmbj-0f2mSrclGapS-46" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-43" target="pGIJmbj-0f2mSrclGapS-29">
+        <mxCell id="pGIJmbj-0f2mSrclGapS-46" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-43" target="pGIJmbj-0f2mSrclGapS-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="473" y="1060" as="sourcePoint" />
             <mxPoint x="660" y="1130" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TI4pqq-0Ur0KhcYKkDTI-0" value="&#39;교양 비교과&#39; 성적 산출 시작" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1690" y="30" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
