@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -54,6 +54,9 @@
         </mxCell>
         <mxCell id="pGIJmbj-0f2mSrclGapS-37" value="&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;교양교과 성적 +=&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;성적뷰(&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 14px;&quot;&gt;V_HAKSA_STU_MARK) [&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;MARK_SCORE&quot;]&amp;nbsp; x&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;교과목 프로파일 테이블 (TMAJORJOBCOURSE) [&quot;POINT&quot;] x&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;교과목 프로파일 테이블 (TMAJORJOBCOURSE) [&quot;ITEM_&quot; +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; font-size: 14px;&quot;&gt;년도별 핵심역량 저장 테이블(TMAJORCOMPETENCE)[&quot;ITEM_NUM&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;]]&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=11;spacingBottom=10;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="410" y="1350" width="1220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.506;exitY=0.122;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pGIJmbj-0f2mSrclGapS-40" target="tg3y-EARPhffcgVbwgIG-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pGIJmbj-0f2mSrclGapS-40" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;입력 경로 :&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;인증제 등급관리 &amp;gt; &#39;교과&#39; 버튼 클릭 시 삽입&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="120" y="810" width="370" height="190" as="geometry" />
@@ -120,6 +123,15 @@
         </mxCell>
         <mxCell id="tg3y-EARPhffcgVbwgIG-14" value="전체 FOR 문 종료" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2180" y="1150" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-15" value="궁금증.&lt;div&gt;현재 로직대로라면 &#39;교과&#39; 버튼 클릭해도 TMAJORJOBCOURSE 테이블에 데이터 안 들어감.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;해당 테이블에 데이터 들어가는&lt;/div&gt;&lt;div&gt;다른 경로, 이벤트 찾아보기.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="530" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tg3y-EARPhffcgVbwgIG-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="890" as="sourcePoint" />
+            <mxPoint x="850" y="840" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
