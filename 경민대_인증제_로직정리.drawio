@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -126,6 +126,14 @@
         </mxCell>
         <mxCell id="tg3y-EARPhffcgVbwgIG-15" value="궁금증.&lt;div&gt;현재 로직대로라면 &#39;교과&#39; 버튼 클릭해도 TMAJORJOBCOURSE 테이블에 데이터 안 들어감.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2022-2 까지의 데이터는 어떻게 들어간 것일까?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="80" y="530" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zDRtljW5G65WmKYkuD1c-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.092;exitY=0.316;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zDRtljW5G65WmKYkuD1c-1" source="pGIJmbj-0f2mSrclGapS-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3" y="1133" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zDRtljW5G65WmKYkuD1c-1" value="궁금증.&lt;div&gt;현재 로직대로라면 &#39;교과&#39; 버튼 클릭해도&amp;nbsp;&lt;span style=&quot;font-size: 14px;&quot;&gt;TMAJORCOMPETENCE&amp;nbsp;&lt;/span&gt;테이블에 데이터 안 들어감.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2022-2 까지의 데이터는 어떻게 들어간 것일까?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-230" y="830" width="290" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
