@@ -135,8 +135,8 @@
         <mxCell id="zDRtljW5G65WmKYkuD1c-1" value="궁금증.&lt;div&gt;현재 로직대로라면 &#39;교과&#39; 버튼 클릭해도&amp;nbsp;&lt;span style=&quot;font-size: 14px;&quot;&gt;TMAJORCOMPETENCE&amp;nbsp;&lt;/span&gt;테이블에 데이터 안 들어감.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2022-2 까지의 데이터는 어떻게 들어간 것일까?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-230" y="830" width="290" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="IsyxrV29sRwqm26BiT7y-0" value="궁금증 정리&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* 현재 로직대로라면 교양교과 성적데이터, 교양직무역량 성적데이터가 들어갈 수가 없음.&lt;/div&gt;&lt;div&gt;* 교과목프로파일 2022-1, 2022-2 데이터는 어떻게 들어간 것인지?&lt;/div&gt;&lt;div&gt;* 년도별 핵심역량기준 2022-1,2022-2 데이터는 어떻게 들어간 것인지?&lt;/div&gt;&lt;div&gt;* 경민대 교과 인증제 기능이 개발 완전하게 되었던 상태인 것인지?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2740" y="50" width="490" height="160" as="geometry" />
+        <mxCell id="IsyxrV29sRwqm26BiT7y-0" value="궁금증 정리&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* 현재 로직대로라면 교양교과 성적데이터, 교양직무역량 성적데이터가 들어갈 수가 없음.&lt;/div&gt;&lt;div&gt;* 교과목프로파일(TMAJORJOBCOURSE) 테이블에 2022-1, 2022-2 데이터는 어떻게 들어간 것인지?&lt;/div&gt;&lt;div&gt;* 년도별 핵심역량기준(TMAJORCOMPETENCE) 테이블에 2022-1,2022-2 데이터는 어떻게 들어간 것인지?&lt;/div&gt;&lt;div&gt;* 경민대 교과 인증제 기능이 개발 완전하게 되었던 상태인 것인지?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;관련 과거 작업노트 히스토리&lt;/div&gt;&lt;div&gt;* $43106, $43080, 42585&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2610" y="50" width="620" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
